@@ -24,3 +24,14 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/mainlanding', function () {
     return view('mainlanding');
 });
+
+
+//route to New Test page
+Route::get('/createtest', function () {
+    return view('createtest');
+});
+
+//route to View Test page
+Route::get('/view', function () {
+    return view('view');
+});
